@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+:root {
+  --bs-primary-rgb: 242, 170, 59;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-primary {
+  background-color: #f2aa3b;
+  border-color: #f2aa3b;
+}
+.btn-primary:hover {
+  background-color: #f2aa3b;
+  border-color: #f2aa3b;
+  opacity: 0.7;
+}
+
+#login {
+  padding: 3rem 5rem;
+}
+#login .login-main-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#login .login-form {
+  padding: 5rem;
+}
+#login .login-btns {
+  display: flex;
+  padding-block: 2rem;
+}
+#login .login-btns .btn {
+  width: 100%;
+}
+#login form {
+  opacity: 1;
+}
+#login form input.form-control {
+  border-radius: 0;
+  height: 56px;
+}
+#login form .forgot-text {
+  opacity: 1;
+}
+#login input.form-control {
+  border-radius: 0;
+  height: 56px;
+}
+#login .input-group-text {
+  border-radius: 0;
+}
+
+.need-help-container {
+  background-color: #fff0db;
+}
+.form-switch .form-check-input:checked {
+  background-color: #f2aa3b;
+  border-color: #f2aa3b;
+}
+.form-switch .form-check-input:focus {
+  border-color: #fff0db;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #fff0db;
+  --bs-form-switch-bg: url(data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 8 8"%3e%3ccircle r="3" fill="%fff0db"/%3e%3c/svg%3e);
+}
+
+.footer-links .list-item {
+  list-style: none;
+  line-height: 2.5;
+}
+.footer-links .list-item a {
+  text-decoration: none;
+  color: #173540;
+}
+.footer-links .list-item a:hover {
+  text-decoration: underline;
+  color: #f2aa3b;
+}
+
+a {
+  text-decoration: none;
+  color: #f2aa3b;
+}
+a:hover {
+  text-decoration: underline;
+  color: #f2aa3b;
+}
+
+.forgot-text {
+  color: #808080;
+}/*# sourceMappingURL=main.css.map */
